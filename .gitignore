@@ -1,0 +1,11 @@
+# Bases de datos / Databases
+prospectos_negocios.db
+
+# Reportes de Excel / Excel Reports
+Reporte_Final_Leads*.xlsx
+
+# Archivos de sistema y Python / System and Python files
+__pycache__/
+.venv/
+.idea/
+.vscode/
