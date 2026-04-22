@@ -106,3 +106,30 @@ Esta versión "PRO" eleva el scraper a un sistema totalmente autónomo. Elimina 
 * **Undetected ChromeDriver:** Integra `undetected-chromedriver` para evadir sistemas sofisticados de detección de bots.
 * **Escritura Humana:** Simula la escritura carácter por carácter con retrasos aleatorios para imitar el comportamiento de un usuario orgánico.
 * **Captura de Datos Extendida:** Captura automáticamente el enlace directo al perfil de Yelp de cada lead, enriqueciendo la base de datos para extracciones futuras.
+
+---
+---
+
+# 🔍 Phase 4: Deep Data Extraction | Fase 4: Extracción Profunda de Datos
+
+[English](#english-f4) | [Español](#español-f4)
+
+---
+
+## English
+This module performs a detailed investigation by visiting each individual Yelp profile stored in the database. Its goal is to extract direct contact information, bypassing Yelp's internal links to find the business's actual phone number and official website.
+
+### ✨ Key Features:
+* **Regex Phone Detection:** Uses Regular Expressions to accurately identify and extract US-formatted phone numbers from the page source.
+* **URL Decoding:** Implements logic to decode Yelp's redirection links (`/biz_redir`), extracting the clean, direct URL of the business's official website.
+* **Smart Update:** Uses SQL `UPDATE` commands with `COMMIT` to ensure data persistence, enriching existing records without creating duplicates.
+
+---
+
+## Español
+Este módulo realiza una investigación detallada visitando cada perfil individual de Yelp almacenado en la base de datos. Su objetivo es extraer información de contacto directo, evadiendo los enlaces internos de Yelp para encontrar el número de teléfono real y el sitio web oficial del negocio.
+
+### ✨ Características Técnicas:
+* **Detección de Teléfono con Regex:** Utiliza Expresiones Regulares para identificar y extraer con precisión números de teléfono con formato de EE. UU. desde el código fuente de la página.
+* **Decodificación de URL:** Implementa lógica para decodificar los enlaces de redirección de Yelp (`/biz_redir`), extrayendo la URL limpia y directa del sitio web oficial del negocio.
+* **Actualización Inteligente:** Utiliza comandos SQL `UPDATE` con `COMMIT` para garantizar la persistencia de los datos, enriqueciendo los registros existentes sin crear duplicados.
