@@ -25,7 +25,7 @@ Este script inicializa el sistema de almacenamiento local para el **Bot de Gener
 ---
 🛠️ Extra Utilities | Utilidades Extra
 ver_leads.py: A quick-access script to preview the SQLite database directly from the terminal. | Un script de acceso rápido para previsualizar la base de datos SQLite directamente desde la terminal.
----
+
 ---
 ---
 
@@ -79,3 +79,30 @@ Esta fase cierra la brecha entre el web scraping y la gestión de datos profesio
 * **Prevención de Duplicados:** Implementa consultas SQL para verificar si un negocio ya existe antes de insertarlo, evitando datos redundantes.
 * **Marca de Tiempo:** Cada registro se almacena con la fecha y hora exacta de extracción para futuras auditorías.
 * **Flujo Automatizado:** Conecta sin problemas la capa de extracción de Selenium con la capa de almacenamiento de SQLite.
+
+---
+---
+
+# ⚡ Phase 3 PRO: Full Automation Mode | Fase 3 PRO: Modo Automatización Total
+
+[English](#english-pro) | [Español](#español-pro)
+
+---
+
+## English
+This "PRO" version upgrades the scraper to a fully autonomous system. It eliminates the need for manual intervention by using advanced anti-detection drivers and simulating human-like typing patterns.
+
+### ✨ Advanced Features:
+* **Undetected ChromeDriver:** Integrated `undetected-chromedriver` to bypass sophisticated bot detection systems.
+* **Human-like Typing:** Simulates character-by-character typing with random delays to mimic organic user behavior.
+* **Extended Data Capture:** Automatically captures the direct Yelp profile link for each lead, enriching the database for further extraction.
+
+---
+
+## Español
+Esta versión "PRO" eleva el scraper a un sistema totalmente autónomo. Elimina la necesidad de intervención manual mediante el uso de controladores anti-detección avanzados y la simulación de patrones de escritura humana.
+
+### ✨ Características Avanzadas:
+* **Undetected ChromeDriver:** Integra `undetected-chromedriver` para evadir sistemas sofisticados de detección de bots.
+* **Escritura Humana:** Simula la escritura carácter por carácter con retrasos aleatorios para imitar el comportamiento de un usuario orgánico.
+* **Captura de Datos Extendida:** Captura automáticamente el enlace directo al perfil de Yelp de cada lead, enriqueciendo la base de datos para extracciones futuras.
