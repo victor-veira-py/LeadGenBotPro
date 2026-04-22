@@ -52,3 +52,30 @@ Esta etapa se enfoca en la extracción de datos en tiempo real usando **Selenium
 * **Medidas Anti-Detección:** Configurado con User-Agents personalizados y eliminación de flags de automatización para minimizar riesgos de bloqueo.
 * **Intervención Humana:** Diseñado para permitir la resolución manual de captchas antes de proceder con la extracción de datos.
 * **Búsqueda Dinámica:** Los parámetros de nicho (categoría) y ubicación son totalmente personalizables dentro del script.
+
+---
+---
+
+# 🗄️ Phase 3: Data Persistence & Duplicate Control | Fase 3: Persistencia de Datos y Control de Duplicados
+
+[English](#english-f3) | [Español](#español-f3)
+
+---
+
+## English
+This phase bridges the gap between web scraping and professional data management. The system now automatically saves extracted leads into the SQLite database, ensuring data consistency and reliability.
+
+### ✨ Key Features:
+* **Duplicate Prevention:** Implements SQL queries to verify if a business already exists before inserting, preventing redundant data.
+* **Timestamping:** Every record is stored with a precise extraction date and time for future auditing.
+* **Automated Workflow:** Seamlessly connects the Selenium extraction layer with the SQLite storage layer.
+
+---
+
+## Español
+Esta fase cierra la brecha entre el web scraping y la gestión de datos profesional. El sistema ahora guarda automáticamente los leads extraídos en la base de datos SQLite, asegurando la consistencia y confiabilidad de la información.
+
+### ✨ Características Técnicas:
+* **Prevención de Duplicados:** Implementa consultas SQL para verificar si un negocio ya existe antes de insertarlo, evitando datos redundantes.
+* **Marca de Tiempo:** Cada registro se almacena con la fecha y hora exacta de extracción para futuras auditorías.
+* **Flujo Automatizado:** Conecta sin problemas la capa de extracción de Selenium con la capa de almacenamiento de SQLite.
