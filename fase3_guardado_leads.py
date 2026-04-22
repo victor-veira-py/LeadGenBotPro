@@ -91,6 +91,6 @@ def ejecutar_fase_3(driver, categoria, ciudad):
 
 if __name__ == "__main__":
     browser = iniciar_browser()
-    ejecutar_fase_3(browser, "Dentists", "Atlanta")
+    ejecutar_fase_3(browser, "Roofing", "Orlando, FL")
     browser.quit()
     print("\n🚀 Fase 3 finalizada. Leads seguros en la DB / Leads secure in DB!")
