@@ -133,3 +133,39 @@ Este módulo realiza una investigación detallada visitando cada perfil individu
 * **Detección de Teléfono con Regex:** Utiliza Expresiones Regulares para identificar y extraer con precisión números de teléfono con formato de EE. UU. desde el código fuente de la página.
 * **Decodificación de URL:** Implementa lógica para decodificar los enlaces de redirección de Yelp (`/biz_redir`), extrayendo la URL limpia y directa del sitio web oficial del negocio.
 * **Actualización Inteligente:** Utiliza comandos SQL `UPDATE` con `COMMIT` para garantizar la persistencia de los datos, enriqueciendo los registros existentes sin crear duplicados.
+
+---
+---
+
+# 📊 Phase 5: Executive Reporting (Pandas & Excel) | Fase 5: Reporte Ejecutivo (Pandas y Excel)
+
+[English](#english-f5) | [Español](#español-f5)
+
+---
+
+## English
+The final stage of the project transforms the database into a high-value commercial asset. Using **Pandas** and **XlsxWriter**, the bot generates a professional Excel report ready for marketing or sales teams.
+
+### ✨ Key Features:
+* **Business-Ready Aesthetics:** Custom styling with dark blue headers and organized borders for a corporate look.
+* **Smart Organization:** Records are automatically sorted alphabetically by business name for easier navigation.
+* **Optimized Layout:** Dynamic column widths and frozen panes ensure the data is readable and clean.
+
+---
+
+## Español
+La etapa final del proyecto transforma la base de datos en un activo comercial de alto valor. Usando **Pandas** y **XlsxWriter**, el bot genera un reporte profesional en Excel listo para equipos de marketing o ventas.
+
+### ✨ Características Técnicas:
+* **Estética Empresarial:** Estilo personalizado con encabezados en azul oscuro y bordes organizados para un aspecto corporativo.
+* **Organización Inteligente:** Los registros se ordenan automáticamente de forma alfabética por nombre de negocio para facilitar la navegación.
+* **Diseño Optimizado:** Anchos de columna dinámicos y paneles inmovilizados aseguran que los datos sean legibles y limpios.
+
+---
+
+### 🏆 Final Output Preview | Vista Previa del Resultado Final
+
+<img width="1366" height="736" alt="Excel_yelp" src="https://github.com/user-attachments/assets/ad92a9bb-7b24-4241-8be9-ddcad1e0fa67" />
+
+---
+**Desarrollado por / Developed by: VICTOR ARMANDO DE OLIVEIRA RODRÍGUEZ**
